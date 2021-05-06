@@ -20,8 +20,6 @@
 # Apply new configuration after a change in the server.cfg using the command:
 # docker restart ContainerName
 
-version: '3.8'
-
 services:
   quake:
     image: treyyoder/quakejs
